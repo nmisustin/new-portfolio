@@ -22,11 +22,11 @@ function App() {
   return (
     <div className="App">
       <Header
-        // setCurrentCategory={setCurrentCategory}
+        setCurrentCategory={setCurrentCategory}
       ></Header>
-      {/* <main className="mb-5">
+      <main className="mb-5">
         {render(currentCategory)}
-      </main> */}
+      </main>
       <Footer></Footer>
     </div>
   );

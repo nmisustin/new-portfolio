@@ -13,11 +13,11 @@ function About(){
         <Image src={imageUrl} style={{width: '100%'}} roundedCircle className="m-2"/>
         </Col>
         <Col xs={12} md={9} className="d-flex justify-content-center">
-        <Card border="secondary" style={{ width: '100%' }} className="m-5">           
+        <Card border="secondary" bg="info" text="light" style={{ width: '100%' }} className="m-5">           
             <Card.Header>About Me</Card.Header>
             <Card.Body>
                 <Card.Text>
-                Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+                Coding bootcamp graduate specializing in Javascript. Experience building full stack web applications from the ground up, with emphasis on mobile friendly design. Professional strengths include creative problem solving, time management and communication.  Performs well in a fast paced team environment.
                 </Card.Text>
             </Card.Body>
         </Card>

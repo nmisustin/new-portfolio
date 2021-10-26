@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import MyModal from '../Modal';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
 
 function Work(){
     const projects = [
@@ -104,11 +105,13 @@ function Work(){
                 </Carousel.Item>
             ))}
         </Carousel>
-        <Row >
+        <Row>
             {projects.map((project, i) => (
                 <Col xs={6} md={4} key={project.name} className="mt-3 text-center">
-                    <Image src= {project.image} alt='screenshot' fluid/>
-                    <MyModal project={project}></MyModal>
+                    <Card bg='info' border='info'>
+                        <Image src= {project.image} alt='screenshot' fluid/>
+                        <MyModal project={project}></MyModal>
+                    </Card>
                 </Col>
             ))}
         </Row>

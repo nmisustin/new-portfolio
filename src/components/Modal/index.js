@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Modal from 'react-bootstrap/modal'
+import Modal from 'react-bootstrap/Modal'
 import Website from '../Website';
 
 function MyModal(props){
@@ -11,7 +11,7 @@ function MyModal(props){
     
     return(
         <>
-            <button className="btn btn-secondary text-light" onClick={handleShow}>info</button>
+            <button className="btn btn-info text-light" onClick={handleShow}>info</button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header>
                     <Modal.Title>{project.project.name}</Modal.Title>
